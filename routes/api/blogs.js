@@ -58,7 +58,7 @@ router.put('/:id', (req, res, next) => {
   });
 });
 
-// /* DELETE blogs/1 */
+// /* DELETE blogs/1 *//
 router.delete('/:id', (req, res, next) => {
   console.log(req.params.id);
 
